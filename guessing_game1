@@ -1,3 +1,5 @@
+#Author: AARAV ROY
+
 import random
 def guessing_game():
     """This is my guessing game. PLayers guess a number.It allows you to rank up in difficulty, IF you win. The way the difficulty increases the range increases by 10"""
