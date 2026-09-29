@@ -1,4 +1,7 @@
-#Author: AARAV ROY
+#Lab 1
+#Group #1
+#Authors: AARAV ROY
+#Date: 9//22/2026
 
 import random
 def guessing_game():
