@@ -20,7 +20,7 @@ def guessing_game():
         if guess != random_num:
             if attempts > max_attempts:
                 print("OH NOOOO!!!!! You've reached the maximum number of attempts. The correct number is:", random_num)
-                break
+                continue
             if guess < 1 or guess > max_num:
                         print("Please guess a number between 1 and " + str(max_num) + ".")
             if guess+10== random_num:
@@ -38,6 +38,7 @@ def guessing_game():
             attempts += 1
         if guess == random_num:
             print("Congratulations! You guessed the correct number:", random_num)
+            attempts=0
             difficulty = input("Do you want to ramp up the difficulty? (yes/no): ")
             if difficulty.lower()=="no":
                 break
