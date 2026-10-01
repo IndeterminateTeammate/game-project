@@ -3,8 +3,8 @@
 #Author: Sean Fay
 #Date: 27 Sept 2026
 
-import guessing
-import rps
+import guessing 
+import rock_paper_scissor
 
 def main():
     """
@@ -23,9 +23,9 @@ def main():
         print('=============================')
         choice = input('Please input 1, 2, or 3: ')
         if choice == '1':
-            guessing.play_guessing()
+            guessing.guessing_game()
         elif choice == '2':
-            rps.play_rps()
+           rock_paper_scissor.rock_paper_scissor()
         elif choice == '3':
             print('Thanks for playing! Toodles!')
             break
