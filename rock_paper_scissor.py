@@ -6,6 +6,8 @@
 import random
 
 def rock_paper_scissor(): 
+    """This is my rock paper scissor game. It allows the user to play against the computer. 
+       The user can choose to continue playing or exit the game after each round."""
     contine = 'Y'
     while contine.upper() == 'Y':
         'User input '
